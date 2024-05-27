@@ -13,8 +13,8 @@ export default function NB() {
 
     
     return (
-        <nav className="w-full sticky top-0 left-0    lg:z-40">
-            <div className="justify-between px-4 mx-auto lg:max-w-full md:items-center md:flex md:px-8  backdrop-blur-md  lg:h-14">
+        <nav className="w-full sticky top-0 left-0 lg:max-w-7xl  z-40">
+            <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8  backdrop-blur-md  lg:h-14">
                 <div>
                        
                     <div className="flex items-center justify-between py-3 md:py-5  md:block ">
@@ -73,28 +73,34 @@ export default function NB() {
                         
                         <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0 ">
                             <div class='flex lg:ml-auto max-lg:w-full'>
-        {/* <div
-          class='flex xl:w-80 max-xl:w-full rgb(141, 218, 141) px-6 py-3 rounded outline outline-transparent  '>
-          <input type='text' placeholder='काहीही शोधा...'
-            class='w-full text-sm bg-transparent rounded outline-none pr-2 mr-2 border-1 border-gray-700' />
-          <svg className="m-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192.904 192.904" width="16px"
-            class="cursor-pointer fill-gray-900">
-            <path
-              d="m190.707 180.101-47.078-47.077c11.702-14.072 18.752-32.142 18.752-51.831C162.381 36.423 125.959 0 81.191 0 36.422 0 0 36.423 0 81.193c0 44.767 36.422 81.187 81.191 81.187 19.688 0 37.759-7.049 51.831-18.751l47.079 47.078a7.474 7.474 0 0 0 5.303 2.197 7.498 7.498 0 0 0 5.303-12.803zM15 81.193C15 44.694 44.693 15 81.191 15c36.497 0 66.189 29.694 66.189 66.193 0 36.496-29.692 66.187-66.189 66.187C44.693 147.38 15 117.689 15 81.193z">
-            </path>
-          </svg>
-        </div> */}
+        
       </div>
-      <li className="text-gray-900 hover:text-blue-600 font-bold">
+      <li className="text-gray-900 hover:text-[#7B553C] font-bold">
                             <Link  to="/">HOME</Link>
                             </li>
                             <li className="text-gray-900 hover:text-orange font-bold">
-                            <Link to=""></Link>
+                            <Link to="/"></Link>
                             </li>
 
+                            <li className="text-gray-900 hover:text-[#7B553C] font-bold">
+                            <Link to="/Services">SERVICES </Link>
+                            </li>
+
+
+                            <li className="text-gray-900 hover:text-[#7B553C] font-bold">
+                            <Link  to="/Our_Doctors"> OUR DOCTORS</Link>
+                            </li>
+
+                          <li className="text-gray-900 hover:text-[#7B553C] font-bold">
+                            <Link to="/Events">EVENTS</Link>
+                            </li>
+                           
+                            
+
+                           
                             <li class='group max-lg:border-b max-lg:py-2 relative'>
           <a href='javascript:void(0)'
-            class='hover:text-[#007bff] text-gray-900 text-[15px] font-bold lg:hover:fill-[#007bff] block'>SERVICES <svg
+            class='hover:text-[#007bff] text-gray-900 text-[15px] font-bold lg:hover:fill-[#007bff] block'>ABOUT US <svg
               xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" class="ml-1 inline-block" viewBox="0 0 24 24">
               <path
                 d="M12 16a1 1 0 0 1-.71-.29l-6-6a1 1 0 0 1 1.42-1.42l5.29 5.3 5.29-5.29a1 1 0 0 1 1.41 1.41l-6 6a1 1 0 0 1-.7.29z"
@@ -103,6 +109,8 @@ export default function NB() {
           </a>
           <ul
             class='absolute hidden group-hover:block shadow-lg bg-black px-6 pb-4 pt-6 space-y-3 lg:top-5 max-lg:top-8 -left-6 min-w-[250px] z-50'>
+             <li class='border-b py-2 '><a href='/Services'
+                class='hover:text-[#007bff] text-white text-[15px] font-bold block'>ABOUT SVATOL</a></li>
             <li class='border-b py-2 '><a href='/Services'
                 class='hover:text-[#007bff] text-white text-[15px] font-bold block'>RESEARCH FINDINGS</a></li>
             <li class='border-b py-2 '><a href='/Services'
@@ -112,26 +120,9 @@ export default function NB() {
             <li class='border-b py-2 '><a href='/Services'
                 class='hover:text-[#007bff] text-white text-[15px] font-bold block'>FEATURED ARTICLES</a></li>
                
-            {/* <li class='border-b py-2 '><a href='javascript:void(0)'
-                class='hover:text-[#007bff] text-gray-600 text-[15px] font-bold block'>Sign up</a></li>
-            <li class='border-b py-2 '><a href='javascript:void(0)'
-                class='hover:text-[#007bff] text-gray-600 text-[15px] font-bold block'>Blog</a></li> */}
+          
           </ul>
         </li>
-        <li className="text-gray-900 hover:text-blue-600 font-bold">
-                            <Link to="">EVENTS</Link>
-                            </li>
-                           
-                            <li className="text-gray-900 hover:text-blue-600 font-bold">
-                            <Link  to=""> Why AYURVEDA</Link>
-                            </li>
-
-                            <li className="text-gray-900 hover:text-blue-600 font-bold">
-                            <Link  to=""> RESEARCH</Link>
-                            </li>
-                            <li className="text-gray-900 hover:text-blue-600 font-bold">
-                            <Link  to="/Aboutus">ABOUT US</Link>
-                            </li>
                             <li>
                             <a href="https://www.youtube.com/" class="text-red-600 hover:text-gray-500">
                     <span class="sr-only">Youtube</span>
@@ -155,7 +146,7 @@ export default function NB() {
                     </a>
                    
                     </li>
-                            {/* <li className="text-gray-100 hover:text-blue-600 font-bold">
+                            {/* <li className="text-gray-100 hover:text-[#7B553C] font-bold">
                             <Link to="/contact">Rooftop</Link>
                             </li> */}
                          

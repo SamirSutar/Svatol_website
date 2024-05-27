@@ -3,8 +3,8 @@ import { IoIosCall, IoIosMail } from "react-icons/io";
 import {  HiLocationMarker } from "react-icons/hi";
 
 function Footer() {
-  return (
-    <footer class="bg-blue-100/80 font-sans dark:bg-gray-900 ">
+  return (<>
+    <footer class="bg-[#FFF6E7] font-sans dark:bg-gray-900 ">
     <div class="container px-6 py-12 mx-auto">
         <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 sm:gap-y-10 lg:grid-cols-4">
            
@@ -98,11 +98,13 @@ function Footer() {
                 
             </div>
         </div>
-        <div className='bg-[#7B553C] h-10 w-lg mt-20'>
-           <p class="font-sans p-8 text-start md:text-center md:text-md md:p-4 align-text-bottom ">© 2023 You Company Inc. All rights reserved.</p>
-        </div>
+       
     </div>
 </footer>
+ <div className='bg-[#7B553C] h-10 w-lg bottom-0  content-center '>
+ <p class="font-sans p-8 text-start text-[#FFF6E7] md:text-center md:text-md md:p-4  ">© 2023 You Company Inc. All rights reserved.</p>
+</div>
+</>
   )
 }
 

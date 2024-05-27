@@ -1,12 +1,13 @@
 import NB from './components/NB'
 import { BrowserRouter,Route,Routes } from 'react-router-dom';
 import Home from './components/Home'
-import Services from './components/Services';
-// import SolarCalculator from './components/SolarCalculator';
+import { SR } from './components/SR';
+import Events from './components/Event';
 import Aboutus from './components/Aboutus';
-// import Panels from './components/Panels';
-// import BatteryStorage from './components/BatteryStorage';
-// import Inverters from './components/Inverters';
+import Services from './components/Book';
+import Doctors_Img from './components/Hero1';
+import Doctor_Details from './components/Doctor_Details';
+
 
 function App() {
   return (
@@ -20,11 +21,12 @@ function App() {
     <Routes>
      
      <Route path="/" element={<Home/>}> </Route>
+      <Route path="/Service" element={<SR/>}> </Route>
+      <Route path="/Events" element={<Events/>} > </Route>Services
       <Route path="/Services" element={<Services/>}> </Route>
-   <Route path="/Aboutus" element={<Aboutus/>}> </Route>
-    {/* <Route path="/Panels" element={<Panels/>}> </Route>
-    <Route path="/BatteryStorage" element={<BatteryStorage/>}> </Route>
-    <Route path="/Inveters" element={<Inverters/>}> </Route> */}
+      <Route path="/Our_Doctors" element={<Doctor_Details/>}> </Route>
+    
+      <Route path="/Aboutus" element={<Aboutus/>}> </Route>
 
 
 
