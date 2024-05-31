@@ -20,7 +20,7 @@ export default function NB() {
                     <div className="flex items-center justify-between py-3 md:py-5  md:block ">
                         
                            <a href="javascript:void(0)">
-                        <img  className="opacity-100 mt-0 pt-0  h-12 w-20 object-scale-down bg-transparent" src={require('./Screenshot__35_-removebg-preview.png')}></img>
+                           <Link to="/">   <img   className="opacity-100 mt-0 pt-0  h-16 ml-1   w-20 object-scale-down bg-transparent" src={require('./gallery/Logo.png')}></img></Link>
                              
                         </a>  
 
@@ -100,7 +100,7 @@ export default function NB() {
                            
                             <li class='group max-lg:border-b max-lg:py-2 relative'>
           <a href='javascript:void(0)'
-            class='hover:text-[#007bff] text-gray-900 text-[15px] font-bold lg:hover:fill-[#007bff] block'>ABOUT US <svg
+            class='hover:text-[#7B553C] text-gray-900 text-[15px] font-bold lg:hover:fill-[#007bff] block'>ABOUT US <svg
               xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" class="ml-1 inline-block" viewBox="0 0 24 24">
               <path
                 d="M12 16a1 1 0 0 1-.71-.29l-6-6a1 1 0 0 1 1.42-1.42l5.29 5.3 5.29-5.29a1 1 0 0 1 1.41 1.41l-6 6a1 1 0 0 1-.7.29z"
@@ -108,18 +108,11 @@ export default function NB() {
             </svg>
           </a>
           <ul
-            class='absolute hidden group-hover:block shadow-lg bg-black px-6 pb-4 pt-6 space-y-3 lg:top-5 max-lg:top-8 -left-6 min-w-[250px] z-50'>
-             <li class='border-b py-2 '><a href='/Services'
-                class='hover:text-[#007bff] text-white text-[15px] font-bold block'>ABOUT SVATOL</a></li>
-            <li class='border-b py-2 '><a href='/Services'
-                class='hover:text-[#007bff] text-white text-[15px] font-bold block'>RESEARCH FINDINGS</a></li>
-            <li class='border-b py-2 '><a href='/Services'
-                class='hover:text-[#007bff] text-white text-[15px] font-bold block'>SUCCESS STORIES</a></li>
-            <li class='border-b py-2 '><a href='/Services'
-                class='hover:text-[#007bff] text-white text-[15px] font-bold block'>UPCOMING EVENTS</a></li>
-            <li class='border-b py-2 '><a href='/Services'
-                class='hover:text-[#007bff] text-white text-[15px] font-bold block'>FEATURED ARTICLES</a></li>
-               
+            class='absolute hidden group-hover:block shadow-lg pt-4  bg-white/50 backdrop-blur-3xl px-6 pb-4 pt-6 space-y-3 lg:top-5 max-lg:top-8 -left-6 min-w-[250px] z-50'>
+             <li class='border-b py-2 '><Link to='/Aboutus'
+                class='hover:text-[#7B553C] text-black text-[15px] font-bold block'>ABOUT SVATOL</Link></li>
+             <li class='border-b py-2 '><Link to='/what_we_stands_for'
+                class='hover:text-[#7B553C] text-black text-[15px] font-bold block uppercase'>What We Stand For</Link></li>
           
           </ul>
         </li>

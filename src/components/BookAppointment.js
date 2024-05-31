@@ -3,7 +3,7 @@ import axios from 'axios';
 import DatePicker from 'react-datepicker';
 import 'react-datepicker/dist/react-datepicker.css';
 
-export default function Booking() {
+export default function BookEvent() {
   const [formData, setFormData] = useState({
     patientName: '',
     patientEmail: '',
@@ -71,12 +71,7 @@ export default function Booking() {
 
   return (
     <section className="mb-32">
-      <div id="map" className="relative h-[300px] overflow-hidden bg-cover bg-[50%] bg-no-repeat">
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10256.751161022528!2d74.03772634136008!3d18.353686311448627!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2e56bb1badcd5%3A0xb7e4c523f1a4ef22!2sBhaskar%20Ayurved%20Chikitsalaya!5e0!3m2!1sen!2sin!4v1715773752416!5m2!1sen!2sin"
-          width="100%" height="480" style={{ border: '0' }} allowFullScreen="" loading="lazy"
-        ></iframe>
-      </div>
+      
       <div className="container justify-center px-6 md:px-12 lg:max-w-6xl">
         <div className="block rounded-lg bg-[hsla(0,0%,100%,0.8)] px-6 py-12 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] md:py-16 md:px-12 -mt-[100px] backdrop-blur-[30px] border border-gray-300">
           {submissionStatus === 'success' && (

@@ -1,4 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
+import { motion } from "framer-motion"
+
 
 
 const Carousel1 = () => {
@@ -63,7 +65,15 @@ const Carousel1 = () => {
 
   return (
     <div className="flex flex-col  m-auto p-auto">
+       <motion.div 
+   whileHover={{ scale: 1.1 }}
+   whileTap={{ scale: 0.9 }}
+    
+    >
               <h1 className='text-4xl  text-center  font-bold sm:ml-12 py-5 '>Some Previous Event Gallery</h1>
+              </motion.div>
+             
+              
 
       <div className="relative flex items-center">
         <button onClick={scrollLeft} className="absolute left-0 ml-5 bg-gray-800 text-white p-2 rounded-full z-10 opacity-75 hover:opacity-100 transition-opacity">
@@ -71,7 +81,11 @@ const Carousel1 = () => {
         </button>
         <div ref={containerRef} className="flex overflow-x-scroll pb-10 hide-scroll-bar">
           <div className="flex flex-nowrap lg:ml-40 md:ml-20 ml-10">
-        
+          <motion.div 
+   whileHover={{ scale: 1.1 }}
+   whileTap={{ scale: 0.9 }}
+    
+    >
               <div className="inline-block px-3">
                 <div className="w-64 h-64 max-w-xs overflow-hidden rounded-lg shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
                   <img 
@@ -81,6 +95,14 @@ const Carousel1 = () => {
                   />
                 </div>
               </div>
+              </motion.div>
+
+              <motion.div 
+   whileHover={{ scale: 1.1 }}
+   whileTap={{ scale: 0.9 }}
+    
+    >
+   
 
               <div className="inline-block px-3">
                 <div className="w-64 h-64 max-w-xs overflow-hidden rounded-lg shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
@@ -91,6 +113,13 @@ const Carousel1 = () => {
                   />
                 </div>
               </div>
+              </motion.div>
+              <motion.div 
+   whileHover={{ scale: 1.1 }}
+   whileTap={{ scale: 0.9 }}
+    
+    >
+
               <div className="inline-block px-3">
                 <div className="w-64 h-64 max-w-xs overflow-hidden rounded-lg shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
                   <img 
@@ -100,6 +129,13 @@ const Carousel1 = () => {
                   />
                 </div>
               </div>
+              </motion.div>
+              <motion.div 
+   whileHover={{ scale: 1.1 }}
+   whileTap={{ scale: 0.9 }}
+    
+    >
+
                <div className="inline-block px-3">
                 <div className="w-64 h-64 max-w-xs overflow-hidden rounded-lg shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
                   <img 
@@ -109,6 +145,13 @@ const Carousel1 = () => {
                   />
                 </div>
               </div>
+              </motion.div>
+              <motion.div 
+   whileHover={{ scale: 1.1 }}
+   whileTap={{ scale: 0.9 }}
+    
+    >
+
 
              
 
@@ -121,6 +164,13 @@ const Carousel1 = () => {
                   />
                 </div>
               </div>
+              </motion.div>
+              <motion.div 
+   whileHover={{ scale: 1.1 }}
+   whileTap={{ scale: 0.9 }}
+    
+    >
+
 
               <div className="inline-block px-3">
                 <div className="w-64 h-64 max-w-xs overflow-hidden rounded-lg shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
@@ -131,6 +181,13 @@ const Carousel1 = () => {
                   />
                 </div>
               </div>
+              </motion.div>
+              <motion.div 
+   whileHover={{ scale: 1.1 }}
+   whileTap={{ scale: 0.9 }}
+    
+    >
+
 
               <div className="inline-block px-3">
                 <div className="w-64 h-64 max-w-xs overflow-hidden rounded-lg shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
@@ -141,6 +198,13 @@ const Carousel1 = () => {
                   />
                 </div>
               </div>
+              </motion.div>
+              <motion.div 
+   whileHover={{ scale: 1.1 }}
+   whileTap={{ scale: 0.9 }}
+    
+    >
+
 
               <div className="inline-block px-3">
                 <div className="w-64 h-64 max-w-xs overflow-hidden rounded-lg shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
@@ -151,6 +215,13 @@ const Carousel1 = () => {
                   />
                 </div>  
               </div>
+              </motion.div>
+              <motion.div 
+   whileHover={{ scale: 1.1 }}
+   whileTap={{ scale: 0.9 }}
+    
+    >
+
 
               <div className="inline-block px-3">
                 <div className="w-64 h-64 max-w-xs overflow-hidden rounded-lg shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
@@ -161,6 +232,13 @@ const Carousel1 = () => {
                   />
                 </div>
               </div>
+              </motion.div>
+              <motion.div 
+   whileHover={{ scale: 1.1 }}
+   whileTap={{ scale: 0.9 }}
+    
+    >
+
 
               <div className="inline-block px-3">
                 <div className="w-64 h-64 max-w-xs overflow-hidden rounded-lg shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
@@ -171,6 +249,13 @@ const Carousel1 = () => {
                   />
                 </div>
               </div>
+              </motion.div>
+              <motion.div 
+   whileHover={{ scale: 1.1 }}
+   whileTap={{ scale: 0.9 }}
+    
+    >
+
 
               <div className="inline-block px-3">
                 <div className="w-64 h-64 max-w-xs overflow-hidden rounded-lg shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
@@ -181,6 +266,9 @@ const Carousel1 = () => {
                   />
                 </div>
               </div>
+              </motion.div>
+
+              
 
               
             
@@ -190,6 +278,7 @@ const Carousel1 = () => {
           {">"}
         </button>
       </div>
+      
       <style jsx="true">{`
         .hide-scroll-bar {
           -ms-overflow-style: none;

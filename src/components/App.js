@@ -9,23 +9,6 @@ import Aboutus from './components/Aboutus';
 import Services from './components/Book';
 import Doctor_Details from './components/Doctor_Details';
 
-
-
-
-import Booking from './components/Booking';
-import Footer from './components/footer';
-import Annualroutinecheckup from './components/Services/Annualroutinecheckup';
-import Dermatology from './components/Services/Dermatology';
-import Genralphysician from './components/Services/Generalphysician';
-import Oncology from './components/Services/Oncology';
-import Preventivehealthcheckup from './components/Services/Preventivehealthcheckup';
-import Panchakarma from './components/Services/Panchakarma';
-import BookEvent from './components/BookEvent';
-import Contactus from './components/Contactus';
-import Paragraph from './components/Paragraph';
-import FeaturdArticles from './components/About_Svtol_Read_More/FeaturdArticles';
-import SuccessStories from './components/About_Svtol_Read_More/SussessStories';
-
 // Keyframes for pulsating animation
 const pulse = keyframes`
   0% {
@@ -72,7 +55,7 @@ function App() {
     <div className="App">
       {loading ? (
         <LoadingContainer>
-          <LoadingImage src={require("./components/Logo.png")} alt="Loading..." />
+          <LoadingImage src={require("./Logo.png")} alt="Loading..." />
         </LoadingContainer>
       ) : (
         <div className="home">

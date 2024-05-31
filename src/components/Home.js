@@ -13,6 +13,9 @@ import Footer from './footer'
 import GA from './GA'
 import NB from './NB'
 import Services from './Book'
+import BookEvent from './BookEvent'
+import SuccessStories from './About_Svtol_Read_More/SussessStories'
+import FeaturdArticles from './About_Svtol_Read_More/FeaturdArticles'
 
 export default function Home() {
 
@@ -25,16 +28,16 @@ export default function Home() {
       
       <Doctors_Img/>
      
-      <Contactus/>
+      
       {/* <Services/> */}
-      <Paragraph/>
+      
       <Aboutus/>
-      <Booking/>
-     
-      {/* <Apointment/> */}
-      <div className='bottom-0 '>
-      <Footer />
-      </div>
+      <Contactus/>
+      
+      
+      
+      
+    
       
     </div>
   )

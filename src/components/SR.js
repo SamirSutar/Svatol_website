@@ -6,6 +6,7 @@ import {
     Typography,
     Button,
   } from "@material-tailwind/react";
+import { Link } from "react-router-dom";
    
   export function SR() {
     return (
@@ -28,7 +29,7 @@ import {
               </Typography>
             </CardBody>
             <CardFooter className="pt-0 lg:mt-16">
-              <Button>Read More</Button>
+              <Link to="/Reserch"><Button>Read More</Button></Link>
             </CardFooter>
           </Card>
 
@@ -52,7 +53,7 @@ import {
               </Typography>
             </CardBody>
             <CardFooter className="pt-0 lg:mt-16">
-              <Button>Read More</Button>
+              <Link to="/Success_story"><Button>Read More</Button></Link>
             </CardFooter>
           </Card>
 
@@ -77,7 +78,7 @@ import {
               </Typography>
             </CardBody>
             <CardFooter className="pt-0 lg:mt-5">
-              <Button>Read More</Button>
+              <Link to="/Events"><Button>Read More</Button></Link>
             </CardFooter>
           </Card>
 
@@ -102,7 +103,7 @@ import {
               </Typography>
             </CardBody>
             <CardFooter className="pt-0">
-              <Button>Read More</Button>
+              <Link to="/FeaturdArticles"><Button>Read More</Button></Link>
             </CardFooter>
           </Card>
         </div>

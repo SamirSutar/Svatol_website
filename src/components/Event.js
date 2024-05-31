@@ -1,10 +1,25 @@
 import { Carousel } from "@material-tailwind/react";
 import Carousel1 from "./gallery";
+import { motion } from "framer-motion"
+import { Link } from "react-router-dom";
+
 
 export default function Events() {
   return (
-    <><div className="bg-[#FFF6E7]">
+    <>
+    <motion.div 
+    initial={{opacity:0}}
+    animate={{opacity:1}}
+    exit={{opacity:0}}
+    transition={{duration:3}}
+    >
+    
+   
+    <div className="bg-[#FFF6E7]">
+   
+
     <Carousel
+    
       loop
       autoplay
       className="rounded-xl lg:max-w-7xl h-3/4 "
@@ -20,7 +35,10 @@ export default function Events() {
             />
           ))}
         </div>
+        
+        
       )}
+      
     >
       <img
         src={require('./gallery/EVENT1 copy.png')}
@@ -32,16 +50,35 @@ export default function Events() {
         alt="image 2"
         className="h-full w-full object-cover"
       />
-      <img
+      <img 
         src={require('./gallery/EV3.jpg')}
         alt="image 3"
         className="h-full w-full object-cover"
       />
       
+      
     </Carousel>
+    
+  
+      
+                <div className="flex justify-center mt-3">
+                <Link to="/BookEvent">
+                 <button
+                  type="submit"
+                  className="mb-6 w-72  rounded bg-sky-500 text-white px-6 pt-2.5 pb-2 text-xs font-medium uppercase leading-normal lg:mb-0"
+                >
+                  Click Here To Registration 
+                </button>
+                </Link>
+                </div> 
+                
+                
     <Carousel1/>
+    
 
     </div>
+    </motion.div>
+    
    </>
   );
 }

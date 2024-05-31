@@ -1,9 +1,11 @@
 import React from 'react'
 import { IoIosCall, IoIosMail } from "react-icons/io";
 import {  HiLocationMarker } from "react-icons/hi";
+import { Link } from 'react-router-dom';
 
 function Footer() {
   return (<>
+     <div className='h-1 w-7xl bg-[#7B553C]'></div>
     <footer class="bg-[#FFF6E7] font-sans dark:bg-gray-900 ">
     <div class="container px-6 py-12 mx-auto">
         <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 sm:gap-y-10 lg:grid-cols-4">
@@ -66,9 +68,9 @@ function Footer() {
                 <p class="font-semibold text-gray-800 dark:text-white">Quick Link</p>
 
                 <div class="flex flex-col items-start mt-5 space-y-2">
-                    <p class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500">Home</p>
-                    <p class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500">Who We Are</p>
-                    <p class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500">Our Philosophy</p>
+                  <Link to="/"> <p class="text-gray-600 text-sm transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500">HOME </p></Link> 
+                 <Link to="/what_we_stands_for">    <p class="text-gray-600 text-sm transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500">WHAT WE STAND FOR</p></Link> 
+                   <Link to="/Aboutus">  <p class="text-gray-600 text-sm transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500">ABOUT US</p></Link> 
                 </div>
             </div>
 
