@@ -35,7 +35,7 @@ export default function Aboutus() {
   }, []);
 
   return (
-    <div className="max-w-screen-xl mx-auto mt-10 bg-[#FFF6E7] flex flex-col md:flex-col items-center justify-center" ref={aboutRef}>
+    <div className="max-w-screen-xl mx-auto  bg-[#FFF6E7] flex flex-col md:flex-col items-center justify-center" ref={aboutRef}>
       <div className="sm:w-1/3 p-10 lg:w-1/2 flex justify-center">
         <motion.div 
           initial={{ opacity: 0, y: 50 }}

@@ -14,7 +14,7 @@ export default function NB() {
     
     return (
         <nav className="w-full sticky top-0 left-0 lg:max-w-7xl  z-40">
-            <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8  backdrop-blur-md  lg:h-14">
+            <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8  bg-[#FFF6E7]  lg:h-14">
                 <div>
                        
                     <div className="flex items-center justify-between py-3 md:py-5  md:block ">

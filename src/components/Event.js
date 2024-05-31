@@ -65,9 +65,9 @@ export default function Events() {
                 <Link to="/BookEvent">
                  <button
                   type="submit"
-                  className="mb-6 w-72  rounded bg-sky-500 text-white px-6 pt-2.5 pb-2 text-xs font-medium uppercase leading-normal lg:mb-0"
+                  className="mb-6 w-72  rounded-full bg-sky-500 text-white px-6 pt-2.5 pb-2 text-xs font-medium uppercase leading-normal lg:mb-0"
                 >
-                  Click Here To Registration 
+                  Click her for Registration  
                 </button>
                 </Link>
                 </div> 
