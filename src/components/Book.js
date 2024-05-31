@@ -7,7 +7,7 @@ function Services() {
   return (
     <AnimatePresence>
       <motion.div
-        className='flex flex-wrap justify-center items-center gap-4 p-4 mt-20'
+        className='flex flex-wrap justify-center items-center gap-4 p-4 mt-2 bg-[#FFF6E7]'
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         exit={{ opacity: 0 }}
@@ -67,7 +67,7 @@ function Services() {
           />
           <Link className='w-full' to="/book_appointment">
           <button
-            className='justify-center mt-7 p-2 font-sans font-bold uppercase text-[#FFF6E7] hover:text-[#7B553C] hover:bg-[#90EE90] bg-[#2E8B57] rounded-lg drop-shadow-mds'
+            className='lg:ml-24 content-center mt-7 p-2 font-sans font-bold uppercase text-[#FFF6E7] hover:text-[#7B553C] hover:bg-[#90EE90] bg-[#2E8B57] rounded-lg drop-shadow-mds'
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.95 }}
           >

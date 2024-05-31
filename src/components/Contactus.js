@@ -57,7 +57,7 @@ export default function Contactus() {
   };
 
   return (
-    <section className="mb-32">
+    <section className="mb-0">
       <div id="map" className="relative h-[300px] overflow-hidden bg-cover bg-[50%] bg-no-repeat">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10256.751161022528!2d74.03772634136008!3d18.353686311448627!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2e56bb1badcd5%3A0xb7e4c523f1a4ef22!2sBhaskar%20Ayurved%20Chikitsalaya!5e0!3m2!1sen!2sin!4v1715773752416!5m2!1sen!2sin"

@@ -8,8 +8,9 @@ import S7Image from  './S7.png'
 
 export default function SuccessStories() {
   return (<>
+  <div className='bg-[#FFF6E7] '>
     <div className='flex justify-center '>
-      <div className="max-w-sm w-full lg:max-w-2xl lg:flex">
+      <div className="max-w-sm w-full lg:max-w-2xl lg:flex mt-7">
         <div
           className="h-48 lg:h-auto lg:w-48 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden"
           style={{ backgroundImage: `url(${S1Image})` }}
@@ -65,8 +66,8 @@ MBA, Indian School of Business</p>
   </div>
 </div>
 </div>
-<div className='flex justify-center mt-14'>
-<div className="max-w-sm w-full lg:max-w-2xl lg:flex">
+<div className='flex justify-center mt-14 '>
+<div className="max-w-sm w-full lg:max-w-2xl lg:flex mb-10">
   <div
     className="h-48 lg:h-auto lg:w-48 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden"
     style={{ backgroundImage: `url(${S10Image})` }}
@@ -91,6 +92,7 @@ MBA, Indian School of Business</p>
       </div>
     </div>
   </div>
+</div>
 </div>
 </div>
 
